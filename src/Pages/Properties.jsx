@@ -139,7 +139,7 @@ export default function Properties() {
           </motion.div>
         ))}
       </div>
-      {/* Quick filters (demo, non-functional) */}
+      
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -169,7 +169,7 @@ export default function Properties() {
           >{label}</div>
         ))}
       </motion.div>
-      {/* Call to action */}
+      
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

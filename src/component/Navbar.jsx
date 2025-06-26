@@ -6,7 +6,7 @@ import { colors, fonts } from "../theme";
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "Properties", path: "/properties" },
-  { label: "Blog", path: "/blog" }, // NEW
+  { label: "Blog", path: "/blog" }, 
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
 ];

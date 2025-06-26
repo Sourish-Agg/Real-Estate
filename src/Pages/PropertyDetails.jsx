@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { colors, fonts } from "../theme";
 
-// Dummy property details
+
 const propertyData = {
   1: {
     title: "Modern Villa in Beverly Hills",

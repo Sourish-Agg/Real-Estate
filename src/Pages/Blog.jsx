@@ -110,7 +110,7 @@ export default function Blog() {
           </motion.div>
         ))}
       </div>
-      {/* Insights section */}
+      
       <section style={{ margin: "3.5rem auto 0 auto", maxWidth: 700 }}>
         <motion.h3
           initial={{ opacity: 0, y: 25 }}

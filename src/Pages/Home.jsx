@@ -25,7 +25,7 @@ const features = [
 export default function Home() {
   return (
     <main>
-      {/* Hero */}
+
       <section
         style={{
           minHeight: "80vh",
@@ -152,7 +152,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Animated image grid */}
+      
       <section style={{
         margin: "4rem 0 0 0",
         padding: "0 2rem"
@@ -209,7 +209,7 @@ export default function Home() {
       </section>
       <Testimonials />
 
-      {/* Call to Blog/Insights */}
+      
       <motion.section
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

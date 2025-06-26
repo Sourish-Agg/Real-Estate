@@ -6,7 +6,7 @@ import Properties from "./Pages/Properties";
 import PropertyDetails from "./Pages/PropertyDetails";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Blog from "./Pages/Blog"; // NEW
+import Blog from "./Pages/Blog"; 
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/properties/:id" element={<PropertyDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} /> {/* NEW */}
+        <Route path="/blog" element={<Blog />} /> 
       </Routes>
     </Router>
   );
